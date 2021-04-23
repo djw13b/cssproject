@@ -1,3 +1,88 @@
-.header {
-    background-image: url("https://i.imgur.com/VsJv5O0.jpg");
+.toolbar {
+    position: absolute;
+    top: 0;
+    margin-left: 800px;
+
+    padding: 5px;
+
 }
+
+a {
+    
+    border-radius: 3px;
+    background-color: rgb(219, 219, 219);
+    padding: 3px;
+    color:black;
+    text-decoration: none;
+    margin: 3px;
+}
+
+body{
+    margin: 0px;
+    height: max-content;
+}
+
+
+
+li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;     
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 400px;
+    margin-left: 700px;
+    font-size: xx-small;
+    padding: 30px;
+    height: max-content;
+    margin-top: -300px;
+}
+
+.info-header{
+    font-size: x-large;
+}
+
+.nav-header{
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    width: fit-content;
+    padding: 0px;
+    margin-top: 530px;
+    margin-left: 400px;
+}
+.body-background{
+    background-image: url("http://p1cdn4static.civiclive.com/UserFiles/Servers/Server_8043327/Image/subpage/Aerial-April-2017.jpg");
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    margin-right: 500px;
+
+}
+
+footer{ 
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2mm;
+    margin-top:400px;
+    padding: 20px ;
+}
+
